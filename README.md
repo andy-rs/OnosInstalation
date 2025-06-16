@@ -13,7 +13,7 @@ Usa `curl` o `wget` para descargar el archivo directamente en tu escritorio:
 ```bash
 # Usando curl descargar el archivo
 cd ~/Desktop
-curl -O https://raw.githubusercontent.com/andy-rs/OnosInstalation/refs/heads/main/onos_instalation.sh
+wget https://raw.githubusercontent.com/andy-rs/OnosInstalation/refs/heads/main/onos_instalation.sh
 
 # Para hacer el script ejecutable
 chmod +x onos_instalation.sh
