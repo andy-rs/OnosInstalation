@@ -21,3 +21,5 @@ chmod +x onos_instalation.sh
 
 # Ejecutar el script como superusuario
 sudo ./onos_instalation.sh
+
+# La contraseña para acceder por SSH es: rocks
