@@ -4,12 +4,6 @@ Este repositorio contiene un script automatizado para instalar ONOS en sistemas 
 
 ## Pasos de instalación
 
-Sigue estos pasos para instalar ONOS correctamente:
-
-1. **Descarga el script en el escritorio (Desktop):**
-
-Usa `curl` o `wget` para descargar el archivo directamente en tu escritorio:
-
 ```bash
 # Usando curl descargar el archivo
 cd ~/Desktop
