@@ -5,15 +5,23 @@ Este repositorio contiene un script automatizado para instalar ONOS en sistemas 
 ## Pasos de instalación
 
 ```bash
-# Usando curl descargar el archivo
+# Asegurarse de estar en Desktop
 cd ~/Desktop
 
-wget https://raw.githubusercontent.com/andy-rs/OnosInstalation/refs/heads/main/onos_instalation.sh
+# Crear un archivo
+touch instalation.sh
+
+# Copiar el contenido de onos_instalation.sh en el archivo creado
+nano instalation.sh
+
+# Una vez copiado el contenido, guardar la información
+ctrl + s
+ctrl + x
 
 # Para hacer el script ejecutable
-chmod +x onos_instalation.sh
+chmod +x instalation.sh
 
 # Ejecutar el script como superusuario
-sudo ./onos_instalation.sh
+sudo ./instalation.sh
 
 # La contraseña para acceder por SSH es: rocks
